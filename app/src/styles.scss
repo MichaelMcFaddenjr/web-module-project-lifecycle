@@ -1,0 +1,64 @@
+// * {
+//   border: 2px solid red;
+// }
+
+.App {
+  h1{
+    width:100%;
+    font-size: 5rem;
+  }
+}
+
+
+.myUserCard {
+  display: flex;
+  flex-direction: row;
+  border: 3px solid grey;
+  width: 40%;
+  margin: 0 auto;
+  align-items: center;
+  border-radius: 15px;
+  padding: 2%;
+  background-color: rgb(179, 179, 179);
+
+  img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+  }
+
+  div {
+    margin: auto;
+    h3{
+      font-size: 2rem;
+    }
+  }
+}
+
+
+.followersContainer{
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.followerCard{
+  display: flexbox;
+  flex-flow: column nowrap;
+  align-items: center;
+  position: relative;
+  border-radius: 4px;
+  height: 300px;
+  width: 225px;
+  margin: 20px;
+  padding: 8px;
+  border:1.5px solid lightgrey;
+  
+
+  img {
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+  }
+}
