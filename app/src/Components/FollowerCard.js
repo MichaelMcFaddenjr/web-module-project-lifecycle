@@ -2,6 +2,7 @@ import React from 'react';
 
 class FollowerCard extends React.Component{
 
+
   render(){
     const { gitFollowers } = this.props;
     console.log(gitFollowers);
